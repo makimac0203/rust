@@ -1,0 +1,9 @@
+services:
+  rust:
+    image: rust:latest
+    volumes:
+      - .:/rust
+    working_dir: /rust
+    environment:
+      - USER=user
+
